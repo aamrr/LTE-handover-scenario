@@ -10,8 +10,8 @@ Then run the following commands:
   `sudo apt update` & `sudo apt upgrade`
 - installing required libraries
   `sudo apt install build-essential autoconf automake libxmu-dev python-pygraphviz cvs mercurial bzr git cmake p7zip-full python-matplotlib python-tk python-dev python-kiwi    python-gnome2 qt4-dev-tools qt4-qmake qt4-qmake qt4-default gnuplot-x11 wireshark`
-Next, in the extracted archive run:
-- ns3 builds so many packages which will be built using the following
+
+Next, ns3 builds so many packages which will be built using the following in the extracted archive
   `./build.py --enable-examples --enable-tests`
 
 
